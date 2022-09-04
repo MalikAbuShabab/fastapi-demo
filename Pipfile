@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages]
+psycopg2-binary = "*"
+SQLAlchemy = "*"
+sqlacodegen = "*"
+fastapi-redis-cache = "*"
+python-dotenv = "*"
+alembic = "*"
+
+[packages.fastapi]
+extras = [ "all",]
+
+[packages.passlib]
+extras = [ "bcrypt",]
+
+[packages.python-jose]
+extras = [ "cryptography",]
+
+[packages.pydantic]
+extras = [ "dotenv",]
