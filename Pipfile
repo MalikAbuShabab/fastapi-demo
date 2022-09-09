@@ -12,7 +12,6 @@ python_version = "3.8"
 psycopg2-binary = "*"
 SQLAlchemy = "*"
 sqlacodegen = "*"
-fastapi-redis-cache = "*"
 python-dotenv = "*"
 alembic = "*"
 

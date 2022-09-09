@@ -16,7 +16,6 @@ dnspython==2.2.1
 ecdsa==0.17.0
 email-validator==1.2.1
 fastapi==0.78.0
-fastapi-redis-cache==0.2.5
 greenlet==1.1.2
 h11==0.13.0
 hiredis==2.0.0

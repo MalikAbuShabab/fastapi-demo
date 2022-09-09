@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from .. import models, schemas,utils
-from fastapi_redis_cache import FastApiRedisCache, cache
+#from fastapi_redis_cache import FastApiRedisCache, cache
 from .. import oauth2
 from sqlalchemy import func
 from sqlalchemy.orm import Session
